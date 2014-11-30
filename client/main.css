@@ -3,16 +3,32 @@
 /* ---------------------------------------------------------------------------- */
 
 body {
-   padding-top: 50px;
-   /*   background: #eee; */
+   padding-top: 200px;
+   background: #2E2E2E;
    /*   color: #666666; */
 }
-
+.gmap {
+   height: 400px;
+   width: 100%;
+   margin:0;
+   padding:0;
+}
 .main-content {
    padding: 10px 15px;
    text-align: center;
 }
-
+.navbar-header a {
+   color: #FA8258 !important;
+}
+.navbar-header a:hover {
+   color: #FFF !important;
+}
+ul.nav a {
+   color: #FA8258 !important;
+}
+ul.nav a:hover {
+   color: #FFF !important;
+}
 .navbar {
    margin-bottom: 10px;
 }
@@ -23,6 +39,7 @@ body {
    -ms-border-radius: 0px 0px 3px 3px;
    -o-border-radius: 0px 0px 3px 3px;
    border-radius: 0px 0px 3px 3px;
+   color: #FA8258;
 }
 
 #spinner {
