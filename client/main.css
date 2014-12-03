@@ -17,6 +17,12 @@ body {
    padding: 10px 15px;
    text-align: center;
 }
+a:link {
+   color: #FA8258 !important;
+}
+a:hover {
+   color: #FFF !important;
+}
 .navbar-header a {
    color: #FA8258 !important;
 }
@@ -40,6 +46,30 @@ ul.nav a:hover {
    -o-border-radius: 0px 0px 3px 3px;
    border-radius: 0px 0px 3px 3px;
    color: #FA8258;
+}
+
+.hotels {
+   text-align: left;
+}
+.list-group-item {
+   background-color: #848484;
+   color: #FFF;
+}
+
+.list-group-item a {
+color: #FA8258 !important;
+}
+.list-group-item a:link {
+color: #FA8258 !important;
+}
+.list-group-item a:hover {
+color: #FFF !important;
+}
+.list-group-item a:active {
+color: #F79F81 !important;
+}
+.list-group-item a:visited {
+color: #F6D8CE!important;
 }
 
 #spinner {
