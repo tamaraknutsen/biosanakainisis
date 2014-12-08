@@ -1,114 +1,130 @@
 <template name="rsvp" width="800" height="800">
-  <form role="form" action="https://docs.google.com/forms/d/15n6qGdJIg97uLVZCQxfO7eGyxkOAhlkZkXs-FjCgJpE/formResponse" method="POST" target="_self" onsubmit="">
-    <div class="rsvp-form">
 
-      <div class="row">
-        <div class="col-md-6">
+  <div class="page-description">
 
-          <div class="form-group">
-            <label for="entry_1848448156">Your name:</label>
-            <input type="text" placeholder="Your name"
-                   class="form-control" id="entry_1848448156" name="entry.1848448156">
-          </div>
+    <p>Add RSVP form overview text...</p>
 
-          <div class="form-group">
-            <label for="group_980078576_1"> Will you be able to attend? </label>
-            <br>
-            <input type="radio" name="entry.980078576"
-                   value="Why, yes!" id="group_980078576_1" role="radio">
-            <span class="ss-choice-label">Yes, I can!</span>
-            <br>
-            <input type="radio" name="entry.980078576"
-                   value="Alas, no... &nbsp;(skip remaining questions)" id="group_980078576_2"
-                   role="radio">
-            <span class="ss-choice-label">No, I cannot...  (skip remaining questions)</span>
-          </div>
+    </div>
 
-          <div class="form-group">
-            <label for="entry_770975778">Number of adults (including you) attending in your party:</label>
-            <input type="text" placeholder="# of adults" class="form-control"
-                   name="entry.770975778" id="entry_770975778">
-          </div>
+    <div class="page-section">
 
-          <div class="form-group">
-            <label for="entry_633685641">Number of children (under 16) attending in your party:</label>
-            <input type="text" placeholder="# of children" class="form-control"
-                   name="entry.633685641" id="entry_633685641">
-          </div>
+      <div class="section-header">Property Address and Location</div>
 
-          <div class="form-group">
-            <label for="entry.1901485836_month">Expected travel dates to/from the Zion area:</label>
-            <br>
-            <div class="row">
-              <div class="col-xs-6">
-                <span class="rsvp-form-secondary-text">Arrival:</span>
-                <select name="entry.1901485836_month" class="ss-month-dropdown"
-                        id="entry.1901485836_month">
-                  <option value="4">April</option>
-                  <option value="5" selected="selected">May</option>
-                </select>
-                <select name="entry.1901485836_day" id="entry.1901485836_day">
-                  <option value="">Day</option>
-                  <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9" selected="selected">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> <option value="31">31</option></select>
-              </div>
-              <div class="col-xs-6">
-                <span class="rsvp-form-secondary-text">Departure:</span>
+      <span class="section-text">
 
-                <select name="entry.308286732_month" class="ss-month-dropdown"
-                        id="entry.1901485836_month">
-                  <option value="5" selected="selected">May</option>
-                </select>
-                <select name="entry.308286732_day" id="entry.1901485836_day">
-                  <option value="">Day</option>
-                  <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11" selected="selected">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> <option value="31">31</option></select>
+    <form role="form" action="https://docs.google.com/forms/d/15n6qGdJIg97uLVZCQxfO7eGyxkOAhlkZkXs-FjCgJpE/formResponse" method="POST" target="_self" onsubmit="">
+      <div class="rsvp-form">
+
+        <div class="row">
+          <div class="col-md-6">
+
+            <div class="form-group">
+              <label for="entry_1848448156">Your name:</label>
+              <input type="text" placeholder="Your name"
+                     class="form-control" id="entry_1848448156" name="entry.1848448156">
+            </div>
+
+            <div class="form-group">
+              <label for="group_980078576_1"> Will you be able to attend? </label>
+              <br>
+              <input type="radio" name="entry.980078576"
+                     value="Why, yes!" id="group_980078576_1" role="radio">
+              <span class="ss-choice-label">Yes, I can!</span>
+              <br>
+              <input type="radio" name="entry.980078576"
+                     value="Alas, no... &nbsp;(skip remaining questions)" id="group_980078576_2"
+                     role="radio">
+              <span class="ss-choice-label">No, I cannot...  (skip remaining questions)</span>
+            </div>
+
+            <div class="form-group">
+              <label for="entry_770975778">Number of adults (including you) attending in your party:</label>
+              <input type="text" placeholder="# of adults" class="form-control"
+                     name="entry.770975778" id="entry_770975778">
+            </div>
+
+            <div class="form-group">
+              <label for="entry_633685641">Number of children (under 16) attending in your party:</label>
+              <input type="text" placeholder="# of children" class="form-control"
+                     name="entry.633685641" id="entry_633685641">
+            </div>
+
+            <div class="form-group">
+              <label for="entry.1901485836_month">Expected travel dates to/from the Zion area:</label>
+              <br>
+              <div class="row">
+                <div class="col-xs-6">
+                  <span class="rsvp-form-secondary-text">Arrival:</span>
+                  <select name="entry.1901485836_month" class="ss-month-dropdown"
+                          id="entry.1901485836_month">
+                    <option value="4">April</option>
+                    <option value="5" selected="selected">May</option>
+                  </select>
+                  <select name="entry.1901485836_day" id="entry.1901485836_day">
+                    <option value="">Day</option>
+                    <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9" selected="selected">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> <option value="31">31</option></select>
+                </div>
+                <div class="col-xs-6">
+                  <span class="rsvp-form-secondary-text">Departure:</span>
+
+                  <select name="entry.308286732_month" class="ss-month-dropdown"
+                          id="entry.1901485836_month">
+                    <option value="5" selected="selected">May</option>
+                  </select>
+                  <select name="entry.308286732_day" id="entry.1901485836_day">
+                    <option value="">Day</option>
+                    <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11" selected="selected">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="16">16</option> <option value="17">17</option> <option value="18">18</option> <option value="19">19</option> <option value="20">20</option> <option value="21">21</option> <option value="22">22</option> <option value="23">23</option> <option value="24">24</option> <option value="25">25</option> <option value="26">26</option> <option value="27">27</option> <option value="28">28</option> <option value="29">29</option> <option value="30">30</option> <option value="31">31</option></select>
+                </div>
               </div>
             </div>
+
+          </div>
+
+          <!--  #####################################################-->
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="entry_308972189">Dietary restrictions:</label>
+              <p class="rsvp-form-secondary-text">
+                Our plans for the reception dinner are still evolving.  For
+                now, let us know if you are strictly vegetarian, vegan,
+                etc., and if you have any food allergies.
+              </p>
+              <textarea rows="2" cols="0" style="width:100%;"
+                        id="entry_308972189" name="entry.308972189"></textarea>
+            </div>
+
+
+            <div class="form-group">
+              <label for="group_553267736_1">Where do you (tentatively) plan to stay?</label>
+              <p class="rvsp-form-secondary-text">
+                This information will help us to coordinate and plan lodging
+                for everyone. May is starting to be peak season in Zion, so
+                everyone needs to get their lodging reservations squared
+                away as soon as possible (by the end of December, ideally)!!
+                Feel free to check multiple options if you aren't sure.
+              </p>
+              <input type="checkbox" name="entry.553267736" value="Local hotel"
+                     id="group_553267736_1" role="checkbox" class="ss-q-checkbox">
+              <span class="ss-choice-label">Local hotel</span>
+              <br>
+              <input type="checkbox" name="entry.553267736" value="AirBnB with friends"
+                     id="group_553267736_2" role="checkbox" class="ss-q-checkbox">
+              <span class="ss-choice-label">AirBnB with friends</span>
+              <br>
+              <input type="checkbox" name="entry.553267736" value="Zion National Park campsite, or camping on BLM land"
+                     id="group_553267736_3" role="checkbox" class="ss-q-checkbox">
+              <span class="ss-choice-label">Zion National Park campsite, or camping on BLM land</span>
+            </div>
+          </div>
+          <br>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
           </div>
 
         </div>
-
-        <!--  #####################################################-->
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="entry_308972189">Dietary restrictions:</label>
-            <p class="rsvp-form-secondary-text">
-              Our plans for the reception dinner are still evolving.  For
-              now, let us know if you are strictly vegetarian, vegan,
-              etc., and if you have any food allergies.
-            </p>
-            <textarea rows="2" cols="0" style="width:100%;"
-                      id="entry_308972189" name="entry.308972189"></textarea>
-          </div>
-
-
-          <div class="form-group">
-            <label for="group_553267736_1">Where do you (tentatively) plan to stay?</label>
-            <p class="rvsp-form-secondary-text">
-              This information will help us to coordinate and plan lodging
-              for everyone. May is starting to be peak season in Zion, so
-              everyone needs to get their lodging reservations squared
-              away as soon as possible (by the end of December, ideally)!!
-              Feel free to check multiple options if you aren't sure.
-            </p>
-            <input type="checkbox" name="entry.553267736" value="Local hotel"
-                   id="group_553267736_1" role="checkbox" class="ss-q-checkbox">
-            <span class="ss-choice-label">Local hotel</span>
-            <br>
-            <input type="checkbox" name="entry.553267736" value="AirBnB with friends"
-                   id="group_553267736_2" role="checkbox" class="ss-q-checkbox">
-            <span class="ss-choice-label">AirBnB with friends</span>
-            <br>
-            <input type="checkbox" name="entry.553267736" value="Zion National Park campsite, or camping on BLM land"
-                   id="group_553267736_3" role="checkbox" class="ss-q-checkbox">
-            <span class="ss-choice-label">Zion National Park campsite, or camping on BLM land</span>
-          </div>
-        </div>
-        <br>
-        <div class="text-center">
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-
       </div>
-    </div>
-  </form>
-</template>
+    </form>
+  </span>
+</div>
+
+  </template>
