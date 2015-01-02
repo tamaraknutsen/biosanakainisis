@@ -27,4 +27,8 @@ Router.route('/registry',
 Router.route('/lodging',
             {name: 'lodging'},
             function () { this.render('lodging') }
+              );
+Router.route('/poem',
+             {name: 'poem'},
+             function () { this.render('poem') }
             );
