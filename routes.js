@@ -20,6 +20,10 @@ Router.route('/rsvp',
             {name: 'rsvp'},
             function () { this.render('rsvp') }
             );
+Router.route('/hikes',
+            {name: 'hikes'},
+            function () { this.render('hikes') }
+            );
 Router.route('/registry',
             {name: 'registry'},
             function () { this.render('registry') }
